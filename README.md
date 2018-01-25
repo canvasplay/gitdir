@@ -1,9 +1,9 @@
 # gitdir
 Generates a directory website listing local git bare repositories.
 
-Besides the motivation of using bare repositories or not, having a local/network folder containing a large collection of git bare repositories can be a painful to deal with, you can't get more information about the repos but the folders name.
+Besides the motivation of using git bare repositories or not, working with local/network folder containing a large collection of git bare repositories can be a pain, so the folder names is the only information you have unless you clone them.
 
-This script will read all `description` files in your git bare repos from the specified folder and will generate a simple html file listing the repos and giving some useful information like name description.
+This script will read the given directory looking for git bare repositories, then will extract name and description from the `description` files in each repostory and will generate a simple html file listing the repos and giving some useful information about them.
 
 ## Usage
 ```
