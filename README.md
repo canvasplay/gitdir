@@ -3,7 +3,7 @@ Generates a directory website listing local git bare repositories.
 
 Besides the motivation of using bare repositories or not, having a local/network folder containing a large collection of git bare repositories can be a painful to deal with, you can't get more information about the repos but the folders name.
 
-This script will read all git bare repos in the specified folder and will generate a simple html file listing the repos and giving some useful information like name description.
+This script will read all `description` files in your git bare repos from the specified folder and will generate a simple html file listing the repos and giving some useful information like name description.
 
 ## Usage
 ```
