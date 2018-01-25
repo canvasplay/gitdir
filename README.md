@@ -19,4 +19,4 @@ There are two optional arguments you can use:
 - `$out`: html output file (defaults to `./index.html`)
 
 ## TODO
-Use nodegit to extract more information about each repository, p.e. author, date created, ... maybe also read a posible README inner file.
+Use http://www.nodegit.org/ for extracting more information about each repository: author, date created, ... read a posible README inner file...
