@@ -1,10 +1,3 @@
-/**
- * use like this
- * node main
- * 
- */
-
-
 //const fs = require('fs');
 const fse = require('fs-extra');
 var path = require('path');
