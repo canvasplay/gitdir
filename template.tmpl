@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Repository List</h1>
+
+        <ul class="list-group">
+            <% for (var i=0, len=data.length; i<len; i++){ %>                
+                <li class="list-group-item">
+                    <h3><%= data[i].name %></h3>
+                    <p><%= data[i].description %></p>
+                    <a href="<%= data[i].link %>">
+                        <%= data[i].link %>
+                    </a>
+                    <br><br>
+                </li>
+            <% } %>
+        </ul>
+
+    </div>
+
+</body>
+</html>
