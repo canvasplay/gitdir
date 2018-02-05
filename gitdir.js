@@ -38,7 +38,7 @@ var PROCESS_REPO_LIST = function() {
             name: contents.split(';')[0],
             description: contents.split(';')[1],
             //link: path.resolve(REPOS[i]).split(path.sep).join('/')
-            link: path.resolve(DIR).split(path.sep).join('/') + REPOS[i]
+            link: path.resolve(DIR).split(path.sep).join('/') + '/' + REPOS[i]
         }
 
         REPOS[i] = data;
