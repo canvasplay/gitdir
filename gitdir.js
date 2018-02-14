@@ -23,6 +23,7 @@ var GET_REPOS_LIST = () => {
     REPOS = files.filter(function (f) {
         return f.indexOf('.git') > 0
     });
+    
     REPOS = REPOS.sort();
 
 }
